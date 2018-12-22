@@ -1,0 +1,23 @@
+{
+  "name": "mussia-static-html",
+  "version": "1.0.0",
+  "description": "serve-static-html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurikrupnik/mussia-static-html.git"
+  },
+  "author": "Yuri Krupnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurikrupnik/mussia-static-html/issues"
+  },
+  "homepage": "https://github.com/yurikrupnik/mussia-static-html#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-static": "^5.0.0"
+  }
+}
