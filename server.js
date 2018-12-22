@@ -1,10 +1,9 @@
 const path = require('path');
-const statics = require('koa-static');
 const Koa = require('koa');
+const statics = require('koa-static');
 
 const app = new Koa();
-const url = process.env.ROOT || '';
-console.log('url', url);
+const url = process.env.ROOT_PATH;
 
 const assets = path.resolve(__dirname, url);
 

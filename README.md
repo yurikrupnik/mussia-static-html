@@ -1,2 +1,2 @@
 # mussia-static-html
-serve-static-html
+Serve static html
