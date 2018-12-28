@@ -7,4 +7,4 @@ const url = process.env.ROOT_PATH;
 const assets = path.resolve(__dirname, url);
 
 app.use(statics(assets));
-app.listen(3000);
+app.listen(80);

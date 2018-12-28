@@ -10,4 +10,4 @@ ENV ROOT_PATH root/
 COPY server.js ./
 
 CMD npm start
-EXPOSE 3000
+EXPOSE 80
